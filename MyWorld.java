@@ -18,7 +18,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1);
+        super(600, 400, 1, false);
         
         //elephant
         Elephant elephant = new Elephant();
@@ -32,6 +32,13 @@ public class MyWorld extends World
         addObject(scoreLabel,50, 50);
         
     }
+    
+    //be called when the game ends, draw "GameOver"
+    public void gameOver(){
+        Label gameOverlabel = new Label ("Game Over", 100);
+        addObject(gameOverlabel, 300, 200);
+    }
+    
     
     /*
      * Increase score

@@ -23,10 +23,10 @@ public class Elephant extends Actor
         }
         
         // Remove apple if elephant eats it
-        removeTouching(Apple.class);
+        eat();
     }
     
-    // eat the apple 
+    // eat the apple and spwan new appple updating the label 
     public void eat(){
         if(isTouching(Apple.class)){
             removeTouching(Apple.class);
