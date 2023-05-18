@@ -22,7 +22,7 @@ public class MyWorld extends World
         
         //elephant
         Elephant elephant = new Elephant();
-        addObject(elephant, 300, 200); // instance, x, y
+        addObject(elephant, 300, 300); // instance, x, y
         
         //apple 
         createApple();
