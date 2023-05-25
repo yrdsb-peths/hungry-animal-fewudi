@@ -46,7 +46,7 @@ public class Pikachu extends Actor
     
     int imageIndex = 0;
     public void animatePikachu(){
-        if(animationTimer.millisElapsed() < 25){
+        if(animationTimer.millisElapsed() < 100){
             return;
         }
         animationTimer.mark();
@@ -70,14 +70,14 @@ public class Pikachu extends Actor
     {
         // Add your action code here.
         
-        if(Greenfoot.isKeyDown("A"))
+        if(Greenfoot.isKeyDown("left"))
         {
             move(-2);
             
             facing = "left";
 
             
-        }else if(Greenfoot.isKeyDown("D")){
+        }else if(Greenfoot.isKeyDown("right")){
             move(2);
             facing = "right";
         }
