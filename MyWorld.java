@@ -27,6 +27,12 @@ public class MyWorld extends World
         Elephant elephant = new Elephant();
         addObject(elephant, 300, 300); // instance, x, y
         
+        
+        //pikachu
+        Pikachu pikachu = new Pikachu();
+        addObject(pikachu, 300, 200);
+        
+        
         //apple 
         createApple();
         
