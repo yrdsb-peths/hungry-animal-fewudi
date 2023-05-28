@@ -12,3 +12,5 @@ This particular repository is the starting template for the Hungry Elephant tuto
 [Part 2: Game Enhancements](https://youtu.be/TwID9i0Ey6o)
 
 [Part 3: Final Touches](https://youtu.be/GT-eFwa4Abc)
+
+New Features added:  New additons include the integration of Pikachu extends actor. It functions similarly to a the elephant. This implementation comprises four distinct sprites that animate during Pikachu's movemetns. Additionally, Pikachu is capable of collecting apples and contributing to the same score as the elephant. These features have seccessfully enhanced the multiplayer gameplay experience. 
