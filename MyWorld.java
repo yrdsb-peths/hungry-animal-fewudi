@@ -12,6 +12,9 @@ public class MyWorld extends World
     public Apple apple; 
     Label scoreLabel;
     
+    //score label for P2
+    Label scoreLabel1;
+    
     int level = 1; 
     
     /**
@@ -27,12 +30,21 @@ public class MyWorld extends World
         Elephant elephant = new Elephant();
         addObject(elephant, 300, 300); // instance, x, y
         
+        
+        //pikachu
+        Pikachu pikachu = new Pikachu();
+        addObject(pikachu, 300, 300);
+        
+        
         //apple 
         createApple();
         
         //lable 
         scoreLabel = new Label(0,60);
         addObject(scoreLabel,50, 50);
+        
+        scoreLabel1 = new Label(0, 60);
+        addObject(scoreLabel1, 50, 540);
         
     }
     
