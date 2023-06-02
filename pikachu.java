@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Pikachu extends Actor
 {
-       
     GreenfootImage idle = new GreenfootImage("images/pikachu_idle/pika0.png");
     GreenfootImage[]idleRight = new GreenfootImage[4];
     GreenfootImage[]idleLeft = new GreenfootImage[4];
@@ -96,4 +95,6 @@ public class Pikachu extends Actor
             world.increaseScore();
         }
     }
+    
+    
 }
